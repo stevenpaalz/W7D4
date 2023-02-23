@@ -1,0 +1,19 @@
+.sections-nav a {
+    text-decoration: none;
+    font-family: "nyt-franklin",arial,helvetica,sans-serif;
+}
+
+.sections-nav{
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid lightgray;
+    padding: 8px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin: auto;
+}
+
+.sections-nav a:last-child {
+    text-transform: uppercase;
+    text-decoration: underline;
+}

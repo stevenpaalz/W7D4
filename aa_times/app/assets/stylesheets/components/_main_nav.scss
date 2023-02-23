@@ -3,10 +3,11 @@
 .main-nav {
   display: flex;
   justify-content: space-between;
-  padding: 10px 0px;
+  padding: 5px 0px;
   font-family: "nyt-franklin",arial,helvetica,sans-serif;
-  font-size: 14px;
+  font-size: 10px;
   text-transform: uppercase;
+  border-bottom: 1px solid lightgray;
 }
 
 .left-nav > ul,
@@ -20,8 +21,8 @@
 
   > ul {
     > li {
-      margin: 15px;
-      padding: 8px;
+      margin: 5px;
+      padding: 5px;
     }
   }
 
@@ -33,7 +34,7 @@
 .right-nav  {
   > ul {
     > li {
-      margin: 15px;
+      margin: 5px;
       
     }
 
@@ -56,10 +57,10 @@
     
 .main-nav button{
   font-family: "nyt-franklin",arial,helvetica,sans-serif;
-  font-size: 14px;
+  font-size: 10px;
   text-transform: uppercase;
   background: #6288a5;
-  padding: 8px;
+  padding: 5px;
   border-radius: 3px;
   color: white;
   border-color: #4d7b9f;
