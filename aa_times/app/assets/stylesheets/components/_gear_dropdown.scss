@@ -11,7 +11,7 @@
   position: absolute;
   right: 7px;
   z-index: 1;
-  padding-left: 10px;
+  padding: 0 10px;
 }
 
 #gear:hover .gear-dropdown {
@@ -24,10 +24,6 @@
   li {
     padding: 10px 0px;
     border-radius: 3px;
-
-  }
-  li:hover {
-    background: gray;
   }
 }
 
@@ -39,3 +35,35 @@
   
 }
 
+.editions li {
+  font-family: "nyt-franklin",arial,helvetica,sans-serif;
+  color: gray;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.help li {
+  font-family: "nyt-franklin",arial,helvetica,sans-serif;
+  
+
+  a {
+    text-decoration: none;
+    color: rgb(53, 104, 255)
+  }
+}
+
+
+
+.editions li:hover {
+  background: rgb(213, 212, 212);
+}
+
+.help li:hover {
+  text-decoration: underline;
+}
+
+.editions {
+  border-bottom: 1px solid gray;
+}
